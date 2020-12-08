@@ -1,0 +1,13 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /robot-vrp
+spring:
+  datasource:
+    url: jdbc:postgresql://39.105.176.118:5432/robot-vrp
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+
+mybatis:
+  mapper-locations: classpath:/mapper/*Mapper.xml
